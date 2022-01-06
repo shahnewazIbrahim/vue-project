@@ -7,6 +7,7 @@
         <p>age:{{ age }}</p>
         <p v-for="(student, index) in students" :key="index">{{ student }}</p>
         <button @click="updateName">Click me</button>
+        <hr>
     </div>
 </template>
 
@@ -23,7 +24,7 @@ export default {
         },
         firstName: String,
         lastName: String,
-        age: Number
+        age: Number,
     },
     methods: {
         updateName() {

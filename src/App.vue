@@ -8,7 +8,9 @@
       @updateValue="fName = $event"
     />
     <p>{{ name }}</p>
-    <Footer/>
+    <Footer
+      :lastName="lName"
+    />
   </div>
 </template>
 
