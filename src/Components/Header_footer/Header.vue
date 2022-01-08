@@ -28,8 +28,8 @@ export default {
     },
     methods: {
         updateName() {
-            // this.firstName = "gulu gulu"
-            this.$emit('updateValue', 'Muted');
+            let updateName = this.firstName === 'John' ? 'Shahnewaz' : 'John'
+            this.$emit('updateValue', updateName);
         }
     }
 }

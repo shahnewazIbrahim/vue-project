@@ -23,7 +23,7 @@ import Footer from "./Components/Header_footer/Footer.vue"
         name: 'Himu',
         students: ["Saiful", "Himu", "Rashed", "Abid"],
         fName: 'John',
-        lName: 'doe',
+        lName: 'Doe',
         myAge: 21
       }
     },
